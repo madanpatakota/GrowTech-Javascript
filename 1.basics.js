@@ -77,7 +77,7 @@ console.log(empName);
 
 
 
-var courseName ="Javascript";
+var courseName = "Javascript";
 //var customerID = "1"
 var customerId = 1;
 
@@ -92,6 +92,9 @@ var employeeSalary = 999.99 //var employee_salary = 999.99
 var customerLocation = "Hyderabad";
 var properCamelCase  = "sample";
 var proper_camel_case  = "sample";
+
+
+
 
 
 
