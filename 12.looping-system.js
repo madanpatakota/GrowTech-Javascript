@@ -25,11 +25,64 @@ var myAmount = 30;
 
 while(price < myAmount){
     //setTimeout(() => {
-        console.log("price" , price);
+        //console.log("price" , price);
     //}, 1000);
     
     price = price + 1;
 }
 
-console.log(price);
+//console.log(price);
+
+
+//for loop
+
+var phonesBasket  = [];
+/*   Writing the same code with for loop
+                for(defaultvalue ; Apply the condition with the default value 
+                                               ; targettheinitliztionvalue){
+                                    statement ;
+                                    statement ;
+                                    statement ;
+                                 }
+*/
+
+/* looping system will be process while condition is true) */
+for(var phonesCount = 1; phonesCount < 10; phonesCount = phonesCount + 1){
+    phonesBasket.push("PhoneCount" + phonesCount);
+    console.log("Phones in the Basket" ,phonesBasket);
+    console.log("phones Count" , phonesCount);
+}
+
+console.log(phonesBasket);
+
+
+
+//HOme work :
+// take one function apply while and for loop in the same situation .
+// YOU have to create the one case study..
+
+
+var customersList = ["Karthik" , "Keerthi" , "Sreedevi" , "Shashank" , "Shiva"];
+//customersList.length = 5
+
+    // customersList[1] = "Keethi";
+    // customersList[2] = "Keethi";
+
+
+    // customersList[3] = "Shashank";
+    // console.log(customersList[3])
+
+    
+
+//for loop incase if my custome shashank . just print the value in console window.
+// for loop
+
+for(var customerIndex = 0 ; customerIndex < customersList.length ; customerIndex = customerIndex + 1){
+    if(customersList[customerIndex] == "Shashank"){
+         console.log(customersList[customerIndex] + "Printed");
+    }
+}
+
+
+
 
